@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #162831;
+}
+
+.header {
+  max-width: 1298px;
+  width: 100%;
+  margin: auto;
+}
+
+/* ---------------- HEADER -------------------- */
+
+.header {
+  max-width: 1298px;
+  width: 100%;
+  margin: auto;
+}
+.nav-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+.link-end {
+  margin-right: 0;
+}
+
+.header-btn {
+  background: #018abe;
+  border-radius: 3px;
+  padding: 10px 20px 10px;
+  color: white;
+  cursor: pointer;
+}
+.line {
+  width: 1296px;
+  opacity: 0.5;
+  border: 1px solid #FFFFFF;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.content {
+  width: 309px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.title {
+  width: 309px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list2 {
+  transform: scale(-1, 1);
+}
+
+.description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: white;
+}
+                                        /*---------MAIN----------*/
+    
+.main {
+  width: 1296px;
+  height: 540px;
+  margin: auto;
+  margin-top: 60px;
+}
+.blocks, .blocks2 {
+  display: flex;
+  
+}
+.block {
+  width: 416px;
+  height: 258px;
+  margin-right: 24px;
+  margin-top: 24px;
+  background: url(../images/water.png) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  
+}
+.block-text {
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-left: -75px;
+}
+.block-date {
+  background: #018ABE;
+  border-radius: 5px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom:200px;
+  margin-left: 47px;
+  padding: 6px;
+}
+.footer {
+  /* width: 100%; */
+  max-width: 1296px;
+  height: 49px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.footer-div {
+   display: flex;
+  justify-content: space-between;
+}
+.footer-text1 {
+  color: white;
+}
+.footer-text2 {
+  color: grey;
+}
+.footer-text3 {
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 135%;
+text-align: right;
+color: #FFFFFF;
+}

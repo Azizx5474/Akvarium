@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #162831;
+}
+
+.header {
+  max-width: 1298px;
+  width: 100%;
+  margin: auto;
+}
+
+/* ---------------- HEADER -------------------- */
+
+.header {
+  max-width: 1298px;
+  width: 100%;
+  margin: auto;
+}
+.nav-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135%;
+}
+
+.link-end {
+  margin-right: 0;
+}
+
+.header-btn {
+  background: #018abe;
+  border-radius: 3px;
+  padding: 10px 20px 10px;
+  color: white;
+  cursor: pointer;
+}
+.line {
+  width: 1296px;
+  opacity: 0.5;
+  border: 1px solid #FFFFFF;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.content {
+  width: 500px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.title {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list2 {
+  transform: scale(-1, 1);
+}
+
+.description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: white;
+}
+/* ---------------- MAIN -------------------- */
+.main {
+    width: 1296px;
+    height: 507px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-text {
+    width: 526px;
+    height: 362px;
+}
+.main-text1 {
+   font-family: 'El Messiri';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.main-text2 {
+   font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+.block-date {
+  width: 96px;
+  background: #018ABE;
+  border-radius: 5px;
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: center;
+  padding: 6px;
+  margin-bottom: 45px;
+}
+.main-img {
+  width: 636px;
+  height: 394px;
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
+  margin-top: 110px;
+}
+                            /* ---------------- FOOTER -------------------- */
+.footer {
+  /* width: 100%; */
+  max-width: 1296px;
+  height: 49px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+.footer-div {
+   display: flex;
+  justify-content: space-between;
+}
+.footer-text1 {
+  color: white;
+}
+.footer-text2 {
+  color: grey;
+}
+.footer-text3 {
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 135%;
+text-align: right;
+color: #FFFFFF;
+}
